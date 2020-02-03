@@ -10,9 +10,9 @@ e.emp_no=s.emp_no;
 
 --Filter employees table for those hired in1986
 SELECT * 
-    FROM employees 
-    WHERE hire_date >= '1986-01-01' 
-        AND hire_date < '1987-01-01'
+FROM employees 
+WHERE hire_date >= '1986-01-01' 
+    AND hire_date < '1987-01-01'
 
 --3. List the manager of each department with the following information: department number, department name, 
 --the manager's employee number, last name, first name, and start and end employment dates.
@@ -40,9 +40,9 @@ WHERE de.to_date ='1/1/9999';
 
 --Filter employees tables for those with the first name Herculus and the last name begins with B (Using a wildcard)
 SELECT * 
-    FROM employees 
-    WHERE first_name = 'Hercules' 
-        AND last_name LIKE 'B%'
+FROM employees 
+WHERE first_name = 'Hercules' 
+    AND last_name LIKE 'B%'
 
 --6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
 
